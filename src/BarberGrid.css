@@ -1,0 +1,39 @@
+/* BarberGrid.css */
+.barber-grid-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .barber-grid {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .barber-grid th, .barber-grid td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .barber-grid th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .barber-grid tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .barber-grid tr:hover {
+    background-color: #ddd;
+  }
+  
